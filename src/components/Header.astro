@@ -1,0 +1,61 @@
+---
+interface Props {}
+
+import menuIcon from "../assets/icons/menu.svg";
+import searchIcon from "../assets/icons/search.svg";
+import logoMancer from "../assets/images/logo-mancer.png";
+import facebookIcon from "../assets/icons/facebook.svg";
+import twitterIcon from "../assets/icons/twitter.svg";
+import instagramIcon from "../assets/icons/instagram.svg";
+---
+
+<div class="header-container">
+  <div class="social">
+    <img class="social-icon" src={facebookIcon.src} alt="" />
+    <img class="social-icon" src={instagramIcon.src} alt="" />
+    <img class="social-icon" src={twitterIcon.src} alt="" />
+  </div>
+  <div class="header">
+    <a href={"#menu"}>
+      <img class="icon" src={menuIcon.src} alt="" />
+    </a>
+    <a href={"#home"}>
+      <img class="logo" src={logoMancer.src} alt="" />
+    </a>
+    <a href={"#search"}>
+      <img class="icon" src={searchIcon.src} alt="" />
+    </a>
+  </div>
+</div>
+
+<style>
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(27, 27, 27, 0.8);
+    width: 100%;
+  }
+
+  .header-container a {
+  }
+
+  .header-container a .icon {
+    width: 40px;
+  }
+  .header-container a .logo {
+    width: auto;
+  }
+
+  .header-container .social {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #9f02fa;
+  }
+
+  .header-container .social .social-icon {
+    width: 15px;
+    margin: 0px 5%;
+  }
+</style>
