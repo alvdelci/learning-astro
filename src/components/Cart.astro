@@ -1,0 +1,17 @@
+---
+interface Props {
+  title: string;
+  color: string;
+  contentBox: string;
+  specifications: {};
+  productImages: Array<string>;
+}
+
+const { title, color, contentBox, specifications, productImages } = Astro.props;
+---
+
+<div class="cart-container"></div>
+<style>
+  .cart-container {
+  }
+</style>
