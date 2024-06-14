@@ -980,6 +980,11 @@ array-iterate@^2.0.0:
   resolved "https://registry.yarnpkg.com/array-iterate/-/array-iterate-2.0.1.tgz#6efd43f8295b3fee06251d3d62ead4bd9805dd24"
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
+astro-carousel@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/astro-carousel/-/astro-carousel-2.0.8.tgz#e2b54b2a8ee829e0d7ca41c20a1c80b91a52a5be"
+  integrity sha512-QV812jOT3LbIk8qlcpeN6T+UeVmqYGXnSreYJRU50Y/hESr7xUugJ4VqwtDRVahhASpprKkv7NYvNi4NAo/0Mg==
+
 astro@^4.10.2:
   version "4.10.2"
   resolved "https://registry.yarnpkg.com/astro/-/astro-4.10.2.tgz#c9508ac5f8a17f7708d590cf0a1813a06f6b578c"
